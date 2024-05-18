@@ -1,0 +1,35 @@
+<resources>
+  <string name="app_name">Oblivion</string>
+  <string name="todo">TODO</string>
+  <string-array name="countries">
+    <item>奥地利</item>
+    <item>比利时</item>
+    <item>巴西</item>
+    <item>保加利亚</item>
+    <item>加拿大</item>
+    <item>丹麦</item>
+    <item>爱沙尼亚</item>
+    <item>芬兰</item>
+    <item>法国</item>
+    <item>德国</item>
+    <item>匈牙利</item>
+    <item>印度</item>
+    <item>爱尔兰</item>
+    <item>意大利</item>
+    <item>日本</item>
+    <item>拉脱维亚</item>
+    <item>荷兰</item>
+    <item>挪威</item>
+    <item>波兰</item>
+    <item>罗马尼亚</item>
+    <item>塞尔维亚</item>
+    <item>新加坡</item>
+    <item>斯洛伐克</item>
+    <item>西班牙</item>
+    <item>瑞典</item>
+    <item>瑞士</item>
+    <item>乌克兰</item>
+    <item>英国</item>
+    <item>美国</item>
+  </string-array>
+</resources>

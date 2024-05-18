@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background_gradient"
+  android:orientation="vertical"
+  tools:context="org.bepass.oblivion.InfoActivity">
+
+  <RelativeLayout
+    android:id="@+id/top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+      android:id="@+id/back"
+      android:layout_width="36dp"
+      android:layout_height="36dp"
+      android:background="?selectableItemBackgroundBorderless"
+      android:layout_alignParentStart="true"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="16dp"
+      android:src="@drawable/ic_back"
+      app:tint="#000000" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_centerVertical="true"
+      android:layout_marginEnd="16dp"
+      android:fontFamily="@font/shabnamlight"
+      android:text="关于该计划"
+      android:textColor="@color/black"
+      android:textSize="32sp" />
+
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/about"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end"
+      android:layout_marginTop="16dp"
+      android:fontFamily="@font/shabnammedium"
+      android:paddingHorizontal="12dp"
+      android:text='该程序是为了免费上网而制作的，不允许任何商业用途。\n\n\n"互联网，要么全有，要么全无！"'
+      android:textAlignment="textEnd"
+      android:textColor="@color/black"
+      android:textSize="16sp" />
+
+  <RelativeLayout
+    android:id="@+id/github_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/about_item"
+    android:gravity="center"
+    android:paddingVertical="8dp">
+
+    <ImageView
+      android:id="@+id/github_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="8dp"
+      android:src="@drawable/ic_github"
+      app:tint="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/github_image"
+        android:fontFamily="@font/shabnam"
+        android:text="Github"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/shabnambold"
+        android:text="BePass/Oblivion"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+  </RelativeLayout>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:fontFamily="@font/shabnam"
+      android:gravity="center"
+      android:text="App Version: 2"
+      android:textColor="@color/black"
+      android:textSize="14sp" />
+
+
+</LinearLayout>
